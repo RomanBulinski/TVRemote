@@ -21,5 +21,32 @@ public class MainTEst {
         assertEquals(25, MAin.tvRemote("words"));
     }
 
+    //
+//    tvRemote(final String word)
+    @Test
+    public void abTest() {
+        assertEquals(1, MAin.tvRemote("ab"));
+    }
+
+    @Test
+    public void afTest() {
+        assertEquals(1, MAin.tvRemote("af"));
+    }
+
+    @Test
+    public void a3Test() {
+        assertEquals(7, MAin.tvRemote("a3"));
+    }
+
+    @Test
+    public void auTest() {
+        assertEquals(4, MAin.tvRemote("au"));
+    }
+
+    @Test
+    public void agTest() {
+        assertEquals(2, MAin.tvRemote("ag"));
+    }
+
 
 }
