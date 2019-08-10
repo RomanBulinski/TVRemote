@@ -7,8 +7,12 @@ public class MAin {
     public static int tvRemote(final String word) {
 
         Map<String, int[]> lettersMap = getlLettersMap();
-
         int counter = 0;
+
+        int[] positionFirstLetter = lettersMap.get( String.valueOf(word.charAt(0) ) );
+        counter = counter + positionFirstLetter[0] + positionFirstLetter[1];
+
+        counter++;
 
         for (int z = 1; z < word.length(); z++) {
             int[] letterPosition1 = lettersMap.get(String.valueOf(word.charAt(z - 1)));
@@ -25,12 +29,9 @@ public class MAin {
             } else if (letterPosition1[1] < letterPosition2[1]) {
                 counter = counter + (letterPosition2[1] - letterPosition1[1]);
             }
-
-
+            counter++;
         }
-
         return counter;
-
     }
 
 
@@ -54,4 +55,6 @@ public class MAin {
         }
         return lettersMap;
     }
+
+
 }
