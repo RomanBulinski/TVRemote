@@ -4,12 +4,11 @@ import java.util.Map;
 public class MAin {
 
 
-    public static int tvRemote(final String word) {
+    public static int tvRemote(final String wordin) {
 
         Map<String, int[]> lettersMap = getlLettersMap();
-
-        int[] positionFirstLetter = lettersMap.get( String.valueOf(word.charAt(0) ) );
-        int counter = positionFirstLetter[0] + positionFirstLetter[1] + 1;
+        int counter = 0;
+        String word = "a"+wordin;
 
         for (int z = 1; z < word.length(); z++) {
             int[] letterPosition1 = lettersMap.get(String.valueOf(word.charAt(z - 1)));
@@ -38,7 +37,6 @@ public class MAin {
                 lettersMap.put(lettersTable[i][j], tempArr);
             }
         }
-
         return lettersMap;
     }
 
