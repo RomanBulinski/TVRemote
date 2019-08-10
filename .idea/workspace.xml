@@ -19,23 +19,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MAin.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MainTEst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="411">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MainTEst.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MAin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="323">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="391">
+              <first_editor relative-caret-position="646">
                 <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
               </first_editor>
               <second_editor />
@@ -115,6 +119,13 @@
               <item name="TVRemote" type="b2602c69:ProjectViewProjectNode" />
               <item name="TVRemote" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TVRemote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TVRemote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,11 +177,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTEst.foTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTEst.exeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TVRemote" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTEst" />
-      <option name="METHOD_NAME" value="foTest" />
+      <option name="METHOD_NAME" value="exeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +207,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTEst.orTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTEst.omTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TVRemote" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTEst" />
-      <option name="METHOD_NAME" value="orTest" />
+      <option name="METHOD_NAME" value="omTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,9 +221,9 @@
       <list>
         <item itemvalue="JUnit.MainTEst.misc" />
         <item itemvalue="JUnit.MainTEst.forTest" />
+        <item itemvalue="JUnit.MainTEst.omTest" />
+        <item itemvalue="JUnit.MainTEst.exeTest" />
         <item itemvalue="JUnit.MainTEst.example" />
-        <item itemvalue="JUnit.MainTEst.orTest" />
-        <item itemvalue="JUnit.MainTEst.foTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +243,7 @@
       <workItem from="1565272078604" duration="586000" />
       <workItem from="1565336648631" duration="2402000" />
       <workItem from="1565359712483" duration="4084000" />
-      <workItem from="1565439721280" duration="2065000" />
+      <workItem from="1565439721280" duration="4340000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented code">
       <created>1565341068266</created>
@@ -241,43 +252,50 @@
       <option name="project" value="LOCAL" />
       <updated>1565341068266</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor code against test">
+      <created>1565447656875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565447656876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTEst_waTest - 2019.08.09 at 21h 55m 17s.xml">
-      <configuration name="MainTEst.waTest" configurationId="JUnit" />
+    <history-entry file="MainTEst_exeTest - 2019.08.10 at 16h 48m 35s.xml">
+      <configuration name="MainTEst.exeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTEst_waTest - 2019.08.09 at 22h 00m 01s.xml">
-      <configuration name="MainTEst.waTest" configurationId="JUnit" />
+    <history-entry file="MainTEst_omTest - 2019.08.10 at 16h 48m 49s.xml">
+      <configuration name="MainTEst.omTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTEst_forTest - 2019.08.09 at 22h 05m 13s.xml">
+    <history-entry file="MainTEst_exeTest - 2019.08.10 at 16h 49m 35s.xml">
+      <configuration name="MainTEst.exeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTEst_omTest - 2019.08.10 at 16h 49m 46s.xml">
+      <configuration name="MainTEst.omTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTEst_omTest - 2019.08.10 at 16h 49m 54s.xml">
+      <configuration name="MainTEst.omTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTEst_forTest - 2019.08.10 at 17h 03m 19s.xml">
       <configuration name="MainTEst.forTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTEst_forTest - 2019.08.10 at 16h 16m 41s.xml">
-      <configuration name="MainTEst.forTest" configurationId="JUnit" />
+    <history-entry file="MainTEst_misc - 2019.08.10 at 17h 03m 27s.xml">
+      <configuration name="MainTEst.misc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTEst_foTest - 2019.08.10 at 16h 18m 03s.xml">
-      <configuration name="MainTEst.foTest" configurationId="JUnit" />
+    <history-entry file="MainTEst_misc - 2019.08.10 at 17h 03m 53s.xml">
+      <configuration name="MainTEst.misc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTEst_orTest - 2019.08.10 at 16h 18m 09s.xml">
-      <configuration name="MainTEst.orTest" configurationId="JUnit" />
+    <history-entry file="MainTEst_misc - 2019.08.10 at 17h 05m 37s.xml">
+      <configuration name="MainTEst.misc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTEst_forTest - 2019.08.10 at 16h 20m 23s.xml">
-      <configuration name="MainTEst.forTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTEst_example - 2019.08.10 at 16h 25m 36s.xml">
-      <configuration name="MainTEst.example" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTEst_forTest - 2019.08.10 at 16h 26m 18s.xml">
-      <configuration name="MainTEst.forTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTEst_forTest - 2019.08.10 at 16h 28m 11s.xml">
-      <configuration name="MainTEst.forTest" configurationId="JUnit" />
+    <history-entry file="MainTEst_misc - 2019.08.10 at 17h 06m 09s.xml">
+      <configuration name="MainTEst.misc" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16982000" />
+    <option name="totallyTimeSpent" value="19257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="-4" width="1329" height="772" extended-state="6" />
@@ -292,7 +310,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36755952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27380952" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26488096" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,7 +337,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented code" />
+    <MESSAGE value="Refactor code against test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor code against test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/System.java">
@@ -385,7 +404,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="391">
+          <first_editor relative-caret-position="646">
             <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
           </first_editor>
           <second_editor />
@@ -394,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MAin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -404,10 +423,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainTEst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="411">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
           </folding>
         </state>
       </provider>

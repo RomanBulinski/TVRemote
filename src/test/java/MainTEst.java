@@ -21,25 +21,20 @@ public class MainTEst {
         assertEquals(25, MAin.tvRemote("words"));
     }
 
-
-
     @Test
     public void forTest() {
         assertEquals(12, MAin.tvRemote("for"));
     }
 
+    @Test
+    public void omTest() {
+        assertEquals(12, MAin.tvRemote("om/"));
+    }
 
-
-//    @Test
-//    public void foTest() {
-//        assertEquals(6, MAin.tvRemote("fo"));
-//    }
-//
-//    @Test
-//    public void orTest() {
-//        assertEquals(4, MAin.tvRemote("or"));
-//    }
-//
+    @Test
+    public void exeTest() {
+        assertEquals(12, MAin.tvRemote("om/l9t5mt"));
+    }
 
 
 }
