@@ -4,7 +4,6 @@
     <list default="true" id="cd170b06-4913-4c72-aa83-7e08adcec918" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MAin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MAin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTEst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTEst.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,14 +21,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainTEst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="238">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,23 +37,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MAin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="153">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="646">
-                <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -97,6 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +128,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,13 +153,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTEst.misc">
-    <configuration name="MainTEst.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTEst">
+    <configuration name="MainTEst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TVRemote" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTEst" />
-      <option name="METHOD_NAME" value="example" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTEst" />
         <item itemvalue="JUnit.MainTEst.misc" />
         <item itemvalue="JUnit.MainTEst.forTest" />
         <item itemvalue="JUnit.MainTEst.omTest" />
         <item itemvalue="JUnit.MainTEst.exeTest" />
-        <item itemvalue="JUnit.MainTEst.example" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +229,8 @@
       <workItem from="1565272078604" duration="586000" />
       <workItem from="1565336648631" duration="2402000" />
       <workItem from="1565359712483" duration="4084000" />
-      <workItem from="1565439721280" duration="4340000" />
+      <workItem from="1565439721280" duration="5146000" />
+      <workItem from="1565515461256" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented code">
       <created>1565341068266</created>
@@ -259,28 +246,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565447656876</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactor code">
+      <created>1565449868255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565449868255</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactor code - shorter version">
+      <created>1565450320189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565450320189</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTEst_exeTest - 2019.08.10 at 16h 48m 35s.xml">
-      <configuration name="MainTEst.exeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTEst_omTest - 2019.08.10 at 16h 48m 49s.xml">
-      <configuration name="MainTEst.omTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTEst_exeTest - 2019.08.10 at 16h 49m 35s.xml">
-      <configuration name="MainTEst.exeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTEst_omTest - 2019.08.10 at 16h 49m 46s.xml">
-      <configuration name="MainTEst.omTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTEst_omTest - 2019.08.10 at 16h 49m 54s.xml">
-      <configuration name="MainTEst.omTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTEst_forTest - 2019.08.10 at 17h 03m 19s.xml">
-      <configuration name="MainTEst.forTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTEst_misc - 2019.08.10 at 17h 03m 27s.xml">
       <configuration name="MainTEst.misc" configurationId="JUnit" />
     </history-entry>
@@ -293,15 +276,33 @@
     <history-entry file="MainTEst_misc - 2019.08.10 at 17h 06m 09s.xml">
       <configuration name="MainTEst.misc" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTEst_misc - 2019.08.10 at 17h 08m 06s.xml">
+      <configuration name="MainTEst.misc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTEst_misc - 2019.08.10 at 17h 10m 03s.xml">
+      <configuration name="MainTEst.misc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTEst_misc - 2019.08.10 at 17h 17m 03s.xml">
+      <configuration name="MainTEst.misc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTEst_misc - 2019.08.10 at 17h 18m 01s.xml">
+      <configuration name="MainTEst.misc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTEst - 2019.08.11 at 11h 28m 12s.xml">
+      <configuration name="MainTEst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTEst - 2019.08.11 at 11h 28m 46s.xml">
+      <configuration name="MainTEst" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19257000" />
+    <option name="totallyTimeSpent" value="20306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="-4" width="1329" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17431907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1766537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,7 +311,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27380952" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14434524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26488096" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,7 +321,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32886904" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.23660715" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,7 +339,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented code" />
     <MESSAGE value="Refactor code against test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor code against test" />
+    <MESSAGE value="Refactor code" />
+    <MESSAGE value="Refactor code - shorter version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor code - shorter version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/System.java">
@@ -413,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MAin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -423,14 +426,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainTEst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="476">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
           </folding>
         </state>
       </provider>

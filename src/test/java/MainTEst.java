@@ -26,15 +26,9 @@ public class MainTEst {
         assertEquals(12, MAin.tvRemote("for"));
     }
 
-    @Test
-    public void omTest() {
-        assertEquals(12, MAin.tvRemote("om/"));
-    }
 
-    @Test
-    public void exeTest() {
-        assertEquals(12, MAin.tvRemote("om/l9t5mt"));
-    }
+
+
 
 
 }

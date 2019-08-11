@@ -3,7 +3,6 @@ import java.util.Map;
 
 public class MAin {
 
-
     public static int tvRemote(final String wordin) {
 
         Map<String, int[]> lettersMap = getlLettersMap();
@@ -39,6 +38,5 @@ public class MAin {
         }
         return lettersMap;
     }
-
 
 }
